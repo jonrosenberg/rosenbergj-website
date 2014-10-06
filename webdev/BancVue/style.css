@@ -1,0 +1,240 @@
+/* style.css - CheckingFinder.com */
+
+.hide {
+	display: none;
+}
+
+.hideText {
+	text-indent: -9999px;
+	overflow: hidden;
+}
+/*=== reset =================================================================*/
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,p,blockquote,th,td { 
+	margin:0;
+	padding:0;
+}
+input,textarea {
+	margin:0;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset,img,a img { 
+	border:0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+	font-style:normal;
+	font-weight:normal;
+}
+ol,ul {
+	list-style:none;
+}
+caption,th {
+	text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+q:before {
+	content: '';
+}
+q:after {
+	content: '';
+}
+abbr,acronym { 
+	border:0;
+}
+a:focus, a:active, object:focus, object:active {
+	outline: 0;
+}
+
+/*=== type styles ===========================================================*/
+
+body {
+	font: normal 12px "Helvetica Nueue", Helvetica, Verdana, sans-serif;
+	color: #333;
+	background-color: #FFFFFF;
+	width:100%;
+	height:100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Helvetica Nueue", Helvetica, Verdana, sans-serif;
+}
+
+p {
+	line-height: 150%;
+	margin: 10px 0;
+}
+
+strong {
+	font-weight: bold;
+}
+
+em {
+	font-style: italic;
+}
+
+
+a {
+	color: #333;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #666;
+}
+ul {
+	list-style:circle;
+}
+/*=== Main Layout ==================================*/
+body {
+	background:#FFF none;
+}
+
+
+div#content {
+	padding-top:600px;
+	z-index: 10;
+}
+
+body.homepage {
+	background: #FFFFFF url(img/StateUniversityCreditUnion.png) no-repeat top center;
+}
+.wrapper {
+	width: 900px;
+	padding: 0 19px;
+	margin: 0 auto;
+	position: relative;
+}
+
+/*=== Header =======================================*/
+div#header {
+	height: 72px;
+	z-index: 5;
+}
+
+div#header a.logo {
+	background: url(img/StateUniversityCreditUnion.png) no-repeat top center;
+	display: block;
+	position: absolute;
+	top: 60px;
+	left: 0px;
+	width:491px;
+	height:23px;
+	border:none;
+}
+div#header ul {
+  	font-family: "ProximaNovaRg", Helvetica, sans-serif;
+	position: absolute;
+	right: 0;
+  	bottom: 40px;
+}
+ 
+div#header ul li {
+  	display: block;
+	float: left;
+	font-size: 12px;
+	height: 23px;
+  	letter-spacing: .05em;
+  	margin: 0 1px;
+	text-transform: uppercase;
+}
+ 
+div#header ul li a {
+  display: block;
+  height: 20px;
+  line-height: 22px;
+  padding: 1px 15px 0;
+}
+ 
+div#header ul li a:hover,
+div#header ul li a.selected {
+  border: 1px solid #d7d7d7;
+  border-bottom: 2px solid #838383;
+  border-top: 1px solid #fef;
+  padding: 0 14px;
+}
+
+/*=== Footer ======================================*/
+
+div#footer {
+	border-top: 1px solid #535353;
+	margin-top: 25px;
+	clear: both;
+	padding-bottom: 100px;
+}
+
+div#footer a {
+  border-right: 1px solid #ccc;
+  color: #535353;
+  font: normal normal 11px/4 Arial, Sans-Serif;
+  padding: 0 6px 0 3px;
+  text-transform: uppercase;
+}
+ 
+div#footer a.last {
+  border-right: none;
+}
+ 
+div#footer a:active, div#foots a:hover, div#foots a:focus {
+  text-decoration: underline;
+}
+/*=== tabs ======================================*/
+ul.tabs {
+	margin: 0 auto;
+	padding: 0;
+	float: left;
+	list-style: none;
+	height: 32px; /*--Set height of tabs--*/
+	border-bottom: 1px solid #999;
+	border-left: 1px solid #999;
+	width: 100%;
+	text-align:center
+}
+ul.tabs li {
+	float: left;
+	margin: 0;
+	padding: 0;
+	height: 31px; /*--Subtract 1px from the height of the unordered list--*/
+	
+	line-height: 31px; /*--Vertically aligns the text within the tab--*/
+	border: 1px solid #999;
+	border-left: none;
+	margin-bottom: -1px; /*--Pull the list item down 1px--*/
+	overflow: hidden;
+	position: relative;
+	background: #e0e0e0;
+}
+ul.tabs li a {
+	text-decoration: none;
+	color: #000;
+	display: block;
+	font-size: 1.2em;
+	padding: 0 20px;
+	border: 1px solid #fff; /*--Gives the bevel look with a 1px white border inside the list item--*/
+	outline: none;
+}
+ul.tabs li a:hover {
+	background: #ccc;
+}
+html ul.tabs li.active, html ul.tabs li.active a:hover  { /*--Makes sure that the active tab does not listen to the hover properties--*/
+	background: #fff;
+	border-bottom: 1px solid #fff; /*--Makes the active tab look like it's connected with its content--*/
+}
+.tab_container {
+	border: 1px solid #999;
+	border-top: none;
+	overflow: hidden;
+	clear: both;
+	float: left; width: 100%;
+	background: #fff;
+	margin-bottom:20px;
+}
+.tab_content {
+	padding: 30px;
+	font-size: 1.2em;
+}

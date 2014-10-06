@@ -1,0 +1,6 @@
+<images>
+	<image source="images/Image1.jpg" thumb="thumbnails/Image1.jpg">Description of image 1.</image>
+	<image source="images/Image2.jpg" thumb="thumbnails/Image2.jpg">Description of image 2.</image>
+	<image source="images/Image3.jpg" thumb="thumbnails/Image3.jpg">Description of image 3.</image>
+	<image source="images/Image4.jpg" thumb="thumbnails/Image4.jpg">Description of image 4.</image>
+</images>

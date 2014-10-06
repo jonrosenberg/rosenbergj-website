@@ -1,0 +1,9 @@
+<url_list>
+	<nav>
+	<url instance="home_btn">home.html</url>
+	<url instance="portfolio_btn">portfolio.html</url>
+	<url instance="services_btn">services.html</url>
+	<url instance="contact_btn">contact.html</url>
+	<url instance="links_btn">links.html</url>
+	</nav>
+</url_list>

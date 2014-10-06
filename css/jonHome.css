@@ -1,0 +1,21 @@
+/* CSS Document */
+body {
+	font-family: ADMUI3Sm, "Agency FB", Arial, sans-serif;
+	color: #666666;
+	text-transform: uppercase;
+	font-size: 12px;
+	text-align:center;
+}
+hr {
+	border: thin solid #999999;
+}
+a {
+	text-transform: none;
+	font-size: 12px;
+}
+.aGrey {
+	color: #737499;
+}
+.dotBord {
+	border: medium dashed #666666;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-Strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<title>Jonathan Rosenberg Home Page</title>
+<meta http-equiv="Page-Enter" content="blendTrans(Duration=0.5)" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link href="css/jonHome.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+<!-- HIDE FROM INCOMPATIBLE BROWSERS
+
+var secLeft = 101;
+function countDown() {
+    var zeros = "";
+    if(secLeft < 100) zeros = "0";
+    if(secLeft < 10) zeros = "00"; 
+    show = zeros + secLeft;
+    document.forms[0].timeLimit.value = show;
+
+    if(secLeft == 00) {
+    window.alert('time out slow poke! You are being redirected to a place where u can get help.');
+    location.href="http://www.slowthinking.org/";
+    }
+    secLeft = secLeft - 1;
+}
+var count = setInterval("countDown()", 1000);
+
+// STOP HIDING FROM INCOMPATIBLE BROWSERS -->
+</script>
+</head>
+
+<body>
+  
+<hr />
+<p>
+<img src="img/menu.jpg" style="border-style:none; width:600px; height:425px" alt="Texas Map" usemap="#menu" />
+<map name="menu" id="menu">
+  <area shape="rect" coords="91,47,223,73" alt="Web Work" href="webWork.html" />
+  <area shape="rect" coords="16,79,111,105" alt="Photos" href="photos.html" />
+  <area shape="rect" coords="211,79,261,103" alt="Art" href="art.html" />
+  <area shape="rect" coords="233,124,326,145" alt="Poems" href="poems.html" />
+</map>
+</p>
+<hr />
+<div style="text-align:right"><a href="mailto:jon.rosenberg@gmail.com" style=" color:#999999; text-decoration:none">jon.rosenberg@gmail.com</a></div>
+<p>You only have a limited amount of time to weast on this page,<br />
+so make the most of it.</p>
+
+<form action="">
+<p><input type="text" size="1" name="timeLimit" /></p>
+</form>
+
+ <p>
+      <script type="text/javascript" src="lastUpdated.js">
+      </script>
+ </p>
+
+</body>
+</html>

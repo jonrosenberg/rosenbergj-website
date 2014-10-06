@@ -1,0 +1,40 @@
+/* CSS Document */
+body {
+	font-family: "Agency FB", Arial, sans-serif;
+	color: #666666;
+	text-transform: uppercase;
+	font-size: 14px;
+	text-align:center;
+}
+hr {
+	border: thin solid #999999;
+}
+a {
+	text-transform: none;
+	text-decoration:none;
+	font-size: 12px;
+}
+a:link, a:visited {
+	color:#666;
+}
+a:hover, a:active {
+	color:#00F;
+}
+.aGrey {
+	color: #737499;
+}
+.dotBord {
+	border: medium dashed #666666;
+}
+img {
+	border-width: 0;
+}
+#footer {
+	text-align:center;
+	font-size:14px;
+	border-top: medium dashed #666666;
+}
+#footer{
+	font-size:14px;
+	
+}

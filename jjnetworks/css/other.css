@@ -1,0 +1,182 @@
+@charset "utf-8";
+/* CSS Document */
+@import url("advanced.css");
+
+html { font-size: 100%; /* IE trick to allow proper resizing of text */ }
+/* default link formatting */			
+a, a:link 			{ 
+	color: rgb(118,134,200); 
+	text-decoration: none; 
+	}
+a:visited 			{ color: rgb(118,134,200); }	
+a:focus, a:hover 	{ color: rgb(31,31,79); }
+a:active 			{ color: rgb(31,31,79); }
+
+body {
+	background-image:url(img/grad_header_vert_green.gif);
+	background-position:100px;
+	background-repeat:repeat-x;
+	background-color:#FFFFFF;
+	font-size: 100%; /* ie hack so these elements correctly inherit the default text size */
+	font-family: "Lucida Grande", Verdana, Tahoma, Helvetica, Arial, sans-serif;
+	color:#666666;
+	padding:0;
+	margin:0;
+}
+a {
+	color: #003366;
+	font-weight:bold;
+}
+a:visited {
+	color:#333333;
+}
+a:hover {
+	color: #660000;
+}
+a:active {
+	color:#990000;
+}
+
+/* default heading sizes */	
+h1 {
+	/*font-size: 20px;*/
+	text-transform:uppercase;
+	background-color:#76ADAA;
+	border:1px solid #564b47;
+	padding:5px 15px;
+	margin:0
+}
+
+h2 {
+	font-weight: normal;
+	padding: 5px 10px;
+	margin:0px;}
+h5 {
+	font-weight: normal;
+	padding: 5px 10px;
+	margin:0px;
+	letter-spacing: .1em;
+	text-indent: 50px;
+}
+table, tr, td{
+	padding:0px;
+	margin:0px;
+	border-spacing:0px;
+	border-collapse:collapse;
+}
+img.download {vertical-align:middle;}
+
+/* ----------container zentriert das layout-------------- */
+#container_header {
+	width: 900px;
+	height: 300px;
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align:right;
+}
+#container_bottom {
+	position: absolute;
+	top: 250px;
+	width: 900px;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color:  #FFFFFF;
+}
+
+/* ----------banner for logo-------------- */
+#banner {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	text-align: left;
+	padding: 0px;
+	margin: 0px;
+}
+#banner img {padding:10px 0px;} 
+/* -----------------Header--------------------- */
+#header{
+	display:block;
+
+	color: #3C7DAA;
+	height:350px;
+	width:100%;
+	margin:0;
+	padding:0;
+}
+#header_nav{
+
+}
+/* -----------------Navigation Tabs--------------------- */
+ul.domtabs{
+	position:fixed;
+	bottom:0px;
+	left: 10px;
+	margin:2em 0 0 0;				
+}
+ul.domtabs li{
+	display: block;
+	padding:0 .5em 0 0;
+	width: 60px;
+	height: 25px;
+	background-image: url(/img/nav_button.gif);
+}
+/* -----------------Inhalt--------------------- */
+#content {
+	background-color: #ffffff;
+	padding: 0;
+	margin: 0;
+}
+div#content { 
+	min-height:600px;
+	height:expression(this.scrollHeight > 600 ? "auto":"600px"); 
+}
+#content_text {
+	margin: 0px 250px 0px 10px; /* Top Right Bottom Left */
+	padding: 50px 0px 200px 0px;
+}
+p, pre{
+	padding: 15px 20px;
+	margin:0;
+}
+/* --------------left navigavtion------------- */
+#left {
+	float: left;
+	width: 200px;
+	margin: 0px;
+	padding: 0px;
+}
+#rightMenu {
+	float: right;
+	width: 200px;
+	margin: 40px 0px 0px 0px;
+	padding: 10px 5px 12px 5px;
+}
+/* -----------footer--------------------------- */
+#footer {
+	clear: both;
+	margin: 0px;
+	padding: 0px;
+	text-align: right; }
+/* --------------border------------- */
+#border_left{
+	background-image:url(img/grad_border_left.gif);
+	background-repeat:repeat-y;
+	background-position:left;
+	width:30px;
+}
+#border_right{
+	background-image:url(img/grad_border_right.gif);
+	background-repeat:repeat-y;
+	background-position:right;
+	width:30px;
+}
+#border_bottom{
+	background-image:url(img/grad_border_bottom.gif);
+	background-repeat:repeat-x;
+	background-position:bottom;
+	height:30px;
+}
+#border_bottomLeft { background-image:url(img/grad_borderCorner_bottomLeft.gif); }
+#border_bottomRight { background-image:url(img/grad_borderCorner_bottomRight.gif); }
