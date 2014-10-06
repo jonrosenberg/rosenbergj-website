@@ -1,0 +1,14 @@
+/*mobile*/
+#footer-wrap {
+	background: #5f656f;
+	color: #c8c8c8;
+	font-size: 0.8em;
+	line-height: 1.4em;
+	margin: 0 10px 10px;
+	overflow: hidden;
+	position: relative;
+}
+#footer {
+	overflow: hidden;
+	padding: 40px 15px 20px;
+	text-align: center;

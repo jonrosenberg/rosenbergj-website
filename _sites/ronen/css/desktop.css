@@ -1,0 +1,197 @@
+/* ----------- Body Styles ----------- */
+
+body{
+	background-color: #eee;
+	min-width: 1000px;
+}
+
+@font-face{
+	font-family: "PetitaMedium";
+	src: url(PetitaMedium.ttf);
+}
+
+@font-face{
+	font-family: "PetitaLight";
+	src: url(PetitaLight.ttf);
+}
+
+@font-face{
+	font-family: "PetitaBold";
+	src: url(PetitaBold.ttf);
+}
+
+/* ------------ Structure ------------ */
+
+#wrapper{
+	background-color: #fff;
+	margin: 0 auto;
+	width: 1130px;
+}
+
+#header{
+	background: #fff url(bgd-header.jpg) no-repeat center;
+	background-size: 602px 20px;
+	height: 180px;
+}
+	#header ul{
+		list-style-type: none;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 81px 69px 0;
+	}
+	#header ul li{
+		display: block;
+		float: left;
+		left: -50%;
+		text-align: center;
+		width: 198px;
+	}
+		#header ul li:first-child{}
+		#header ul li.middle{
+			padding: 1px;
+		}
+		#header ul li.active{}
+
+	#header a{
+		font-family: "PetitaMedium", Arial, Helvetica, sans-serif;
+		font-size: 0.9em;
+		padding: 0 40px;
+		letter-spacing: 0.3em;
+		text-transform: uppercase;
+		text-decoration: none;
+		cursor: pointer;
+		color: black;
+	}
+	#header ul li a img{
+		vertical-align: middle;
+	}
+	#header ul li a:link, a:visited{}
+	#header ul li a:hover, a:active{}
+
+#logo{
+	background-image: url("rcg logo 3.jpg");
+	background-size: 100% 100%;
+	display: block;
+	width: 30px;
+	height: 120px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 40px;
+	margin: auto;
+	text-indent: -9999px;
+}
+
+#content{}
+
+#footer-wrap{
+	width: 960px;
+	margin: 0 auto;
+	padding: 60px 20px 30px;
+}
+#footer{
+	width: 960px;
+	height: 125px;
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+}
+	#footer .left {
+	width: 370px;
+	float: left;
+	text-align: left;
+	}
+	#footer .right {
+	width: 450px;
+	float: right;
+	text-align: right;
+	}
+	#footer a.top {
+	width: 50px;
+	height: 90px;
+	background: url("rcg logo 3.jpg") no-repeat;
+	bottom: 25px;
+	display: block;
+	left: 455px;
+	position: absolute;
+	}
+
+/* ------------ Homepage ------------ */
+
+#banner{
+	font-family: "PetitaMedium", Arial, Helvetica, sans-serif;
+	margin: 0 50px 50px;
+	overflow: hidden;
+	position: relative;
+	height: 415px;
+}
+	#banner img{
+		position: absolute;
+		left: 0;
+		top: 0;
+		z-index: 2;
+	}
+	#intro{
+		height: 34px;
+		width: 260px;
+		position: relative;
+		top: 220px;
+		left: 392px;
+		background-color: #fff;
+		opacity: 0.6;
+		z-index: 3;
+	}
+		#intro p{
+			font-size: 1em;
+			font-weight: bold;
+		}
+
+#columns{
+	overflow: hidden;
+	padding: 0;
+}
+	#columns .col{
+		width: 260px;
+		height: 265px;
+		float: left;
+		margin: 0 0 50px 65px;
+		padding: 0px 15px;
+		text-align: center;
+		background-color: #eee;
+	}
+	#columns .col.end{
+		margin: 0 0 50px 65px;
+	}
+		#columns .col h2{
+			font-family: "PetitaMedium", Arial, Helvetica, sans-serif;
+			letter-spacing: 0.3em;
+			text-transform: uppercase;
+			padding: 0 0 30px;
+		}
+		#columns .col .image{
+			width: 240px;
+			height: 100px;
+			background: url(jerusalem_old_city.jpg) no-repeat;
+			display: block;
+			margin: 0 auto 30px;
+			padding: 30px 0 0;
+		}
+			#columns .col .image.graphics{
+				background-position: -302px -337px;
+			}
+			#columns .col .image.websites{
+				background-position: -990px -770px;
+			}
+			#columns .col .image.contact{
+				background-position: -613px;
+			}
+			#columns .col .image img{
+				width: 70px;
+				height: 70px;
+				display: block;
+				margin: 0 auto;
+				position: relative;
+			}
+		#columns .col p{
+			font-family: Arial, Helvetica, sans-serif;
+		}
